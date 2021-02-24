@@ -36,7 +36,8 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 4. 
 <img src="https://github.com/alilafzi/corona/blob/main/images/output_features_correlations.png"> <br>
 
-5. 
+5.
+<img src="https://github.com/alilafzi/corona/blob/main/images/2.PNG"> <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_RF.png"> <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_XGBoost.png"> <br>
