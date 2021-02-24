@@ -8,6 +8,12 @@ We defined the parameter of interest as the average ratio of the number of death
 <img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Histogram.png" height = 400 width = 400> <br>
 Histogram of change in death ratio for the three states <br>
 
+Since it is not known exactly what percentage of population follows the MM order and use face coverings, it is necessary to come up with features that can capture how likely is
+an individual to follow the recommended practice. For bridging this gap, four main features are chosen as primary indicators which are listed below:<br>
+<ul> <b> 1. County Population: </b> Population in each county is obtained from the most recent surveys for the year 2019 </ul>
+<ul> <b> 2. Median Household Income: </b> </ul>
+<ul> <b> 3. Political Inclination: </b> </ul>
+<ul> <b> 4. Mask Usage based on New York Times Survey: </b> </ul>
 ## Data Resources
 
 
