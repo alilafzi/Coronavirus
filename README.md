@@ -27,7 +27,8 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 1. To have an initial assessment of the variation of percent change in the death ratio, we plotted the percent death ratio as functions of population, median income, and percent of the population that frequently uses mask, which has a relatively high correlation coefficient. There is no detectable pattern between parameters of interest and death ratio.<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/all_scatter_2.png"> <br>
 
-2. Fig. 3(a) shows that in general, communities that voted republican in presidential election of 2020 were affected worse compared to democratic counties. Further, a noticeable correlation is observed between average median income and the change of death ratio, presented in Fig. 3(b). It is shown that, on average, the communities with less median income experienced a positive change in death ratio, meaning more mortality rate regardless of their political inclination. The strongest correlation however is observed by considering county population, shown in Fig. 3(c). The counties with fewer residents were affected more adversely by the pandemic compared to high-population counties. The counter intuitive relation between population and change in death ratio further corroborates necessity of inclusion of the two other supplementary features. <br>
+2. Figure a shows that in general, communities that voted republican in presidential election of 2020 were affected worse compared to democratic counties. Further, a noticeable correlation is observed between average median income and the change of death ratio, presented in Figure b. It is shown that, on average, the communities with less median income experienced a positive change in death ratio, meaning more mortality rate regardless of their political inclination. The strongest correlation however is observed by considering county population, shown in Figure c. The counties with fewer residents were affected more adversely by the pandemic compared to high-population counties. The counter intuitive relation between population and change in death ratio further corroborates necessity of inclusion of the two other supplementary features. <br>
+<br>
 
 <img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Political.png" height = 400 width = 500> <br>
 <b> (a) </b> Change in death ratio and representation of number of counties based on political inclination.<br>
@@ -35,21 +36,29 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 <b> (b) </b> Change in death ratio and median income based on political inclination.<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Population.png" height = 400 width = 500> <br>
 <b> (c) </b> Change in death ratio and average population, based on political inclination.<br>
+<br>
 
 3. The change in death ratio from one month before to one month after the date of mandating face-covering in the three states is visualized for each county in Fig.(2). Two clusters of increase in death ratio can be seen, one near northern Washington, and one near central California. <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/death_ratio_county_map_1.png"> <br>
+<br>
 
 4. The effect of each feature on the change of death ratio is visualized by the correlation heatmap provided in the figure below. Each row of the correlation matrix is an appropriate indicator of how correlated that feature is with change in death ratio. A more negative value implies that increase of that specific feature is positively correlated by a decrease in change of death ratio. For instance, increase in population, median income, and votes for democratic party would result in a decrease in change of death ratio. On the other hand, the positive correlation for republican votes leads to a higher change of positive increase in death ratio. An interesting observation is the disordered correlation pattern for mask usage. It can be seen that, as one expects, increasing the number never and rarely mask users is positively correlated with change in death ratio. However, the data associated with frequently mask users have resulted in a positive correlation value. Such erratic correlation behavior necessitates inclusion of other features in the analysis. <br>
+<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/output_features_correlations.png"> <br>
+<br>
 
 5. The accuracy score for the processed algorithms on these four states are presented in the below Table and confusion matrixes:
 <img src="https://github.com/alilafzi/corona/blob/main/images/2.PNG" height = 150 width = 350> <br>
+<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> <br>
 Confusion matrix of Naive Base Algorithm <br>
+<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_RF.png"> <br>
 Confusion matrix of Random Forest Algorithm <br>
+<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_XGBoost.png"> <br>
 Confusion matrix of XGBoost Algorithm <br>
+<br>
 
 ## Conclusion:
 In this body of work, we have analyzed the effect of mask covering on the intensity of spread of the COVID-19 virus by considering the death ratio at the county level to be the
