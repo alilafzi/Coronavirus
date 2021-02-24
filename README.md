@@ -14,11 +14,13 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 <ul> <b> 2. Median Household Income: </b> The income level is the median household in each county in the years 2015-2019.</ul>
 <ul> <b> 3. Political Inclination: </b> The data for the political inclination is constructed based on the 2020 US presidential election results</ul>
 <ul> <b> 4. Mask Usage based on New York Times Survey: </b> The mask usage from 7/2/2020 to 7/14/2020</ul>
+<br>
 ## Data Resources
 <ul> <b> Source 1:</b> USCensus, “United states census bureau.” https://www.census.gov </ul>
 <ul> <b> Source 2:</b>  N. Y. Times, “Mask-wearing survey data.” https://github.com/nytimes/covid-19-data/tree/master/mask-use.</ul>
 <ul> <b> Source 3:</b> USAFACTS, “Usa coronavirus cases and deaths.” https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/state/oregon. </ul>
 <ul> <b> Source 4:</b> POLITICO, “Us 2020 presidential election results.” https://www.politico.com/2020-election/results/president/.</ul>
+<br>
 ## Results:
 
 ## Conclusion:
