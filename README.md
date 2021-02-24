@@ -30,6 +30,16 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 <img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Income.png" height = 400 width = 500> <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Political.png" height = 400 width = 500> <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Population.png" height = 400 width = 500> <br>
+
+3. 
+<img src="https://github.com/alilafzi/corona/blob/main/images/death_ratio_county_map_1.png"> <br>
+4. 
+<img src="https://github.com/alilafzi/corona/blob/main/images/output_features_correlations.png"> <br>
+
+5. 
+<img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> <br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_RF.png"> <br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_XGBoost.png"> <br>
 ## Conclusion:
 In this body of work, we have analyzed the effect of mask covering on the intensity of spread of the COVID-19 virus by considering the death ratio at the county level to be the
 primary indicator. To bridge the gap between level of adherence to mask mandate, four main features are used as input data, population, income, political inclination, and the results of the survey on mask usage from New York Times. The change in the death ratio is used as the metric to quantify the effectiveness of face-coverings on the COVID-19 spread. After extracting and refining the data-set from reliable sources, we analyzed the information using 9 different algorithms. Among all the methods used, Random Forest, XGBoost, and Naive Bayes had the best performance with a classification accuracy of 94%. The high performing algorithms, with the computed hyper-parameters, are then used to process four additional states, Arizona, New Jersey, New York, and Texas entirely used as test data set. The acceptable accuracy results for the large test case, further verifies legibility of the chosen features as influential criteria for modeling purposes. The obtained hyper-parameters for these models (except for Naive Bayes) can now be used to predict future conditions of the spread of the virus. It is shown that, in most of the counties, there exist a connection between adherence to the mask mandate and change in death ratio. The findings of this work emphasizes importance of immediate legislative action on well-being of societies. It is hoped that the findings of this work, highlight importance of socioeconomic and political settings on behavior of different communities, which as portrayed could be complex and counter-intuitive. For instance, if the mask mandate had been issued earlier, with better implementation procedures along with effective incentives targetted at specific communities, more people would be encouraged to abide by the issued ordinance, and consequently, fewer individuals and families would have become the victim of the pandemic.
