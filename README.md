@@ -25,7 +25,7 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 
 ## Results:
 1. To have an initial assessment of the variation of percent change in the death ratio, we plotted the percent death ratio as functions of population, median income, and percent of the population that frequently uses mask, which has a relatively high correlation coefficient. There is no detectable pattern between parameters of interest and death ratio.<br>
-<img src="https://github.com/alilafzi/corona/blob/main/images/all_scatter_2.png" width = 700 height = 800> <br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/all_scatter_2.png"> <br>
 2. 
 <img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Income.png" height = 400 width = 500> <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Political.png" height = 400 width = 500> <br>
