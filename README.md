@@ -10,13 +10,15 @@ Histogram of change in death ratio for the three states <br>
 
 Since it is not known exactly what percentage of population follows the MM order and use face coverings, it is necessary to come up with features that can capture how likely is
 an individual to follow the recommended practice. For bridging this gap, four main features are chosen as primary indicators which are listed below:<br>
-<ul> <b> 1. County Population: </b> Population in each county is obtained from the most recent surveys for the year 2019 </ul>
-<ul> <b> 2. Median Household Income: </b> </ul>
-<ul> <b> 3. Political Inclination: </b> </ul>
-<ul> <b> 4. Mask Usage based on New York Times Survey: </b> </ul>
+<ul> <b> 1. County Population: </b> Population in each county is obtained from the most recent surveys for the year 2019. </ul>
+<ul> <b> 2. Median Household Income: </b> The income level is the median household in each county in the years 2015-2019.</ul>
+<ul> <b> 3. Political Inclination: </b> The data for the political inclination is constructed based on the 2020 US presidential election results</ul>
+<ul> <b> 4. Mask Usage based on New York Times Survey: </b> The mask usage from 7/2/2020 to 7/14/2020</ul>
 ## Data Resources
-
-
+<ul> <b> Source 1:</b> </ul>
+<ul> <b> Source 2:</b> </ul>
+<ul> <b> Source 3:</b> </ul>
+<ul> <b> Source 4:</b> </ul>
 ## Results:
 
 ## Conclusion:
