@@ -48,6 +48,7 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 <br>
 
 5. The accuracy score for the processed algorithms on these four states are presented in the below Table and confusion matrixes:
+<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/2.PNG" height = 150 width = 350> <br>
 <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> <br>
