@@ -26,21 +26,31 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 ## Results:
 1. To have an initial assessment of the variation of percent change in the death ratio, we plotted the percent death ratio as functions of population, median income, and percent of the population that frequently uses mask, which has a relatively high correlation coefficient. There is no detectable pattern between parameters of interest and death ratio.<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/all_scatter_2.png"> <br>
-2. 
-<img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Income.png" height = 400 width = 500> <br>
-<img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Political.png" height = 400 width = 500> <br>
-<img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Population.png" height = 400 width = 500> <br>
 
-3. 
+2. Fig. 3(a) shows that in general, communities that voted republican in presidential election of 2020 were affected worse compared to democratic counties. Further, a noticeable correlation is observed between average median income and the change of death ratio, presented in Fig. 3(b). It is shown that, on average, the communities with less median income experienced a positive change in death ratio, meaning more mortality rate regardless of their political inclination. The strongest correlation however is observed by considering county population, shown in Fig. 3(c). The counties with fewer residents were affected more adversely by the pandemic compared to high-population counties. The counter intuitive relation between population and change in death ratio further corroborates necessity of inclusion of the two other supplementary features. <br>
+
+<img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Political.png" height = 400 width = 500> <br>
+<b> (a) </b> Change in death ratio and representation of number of counties based on political inclination.<br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Income.png" height = 400 width = 500> <br>
+<b> (b) </b> Change in death ratio and median income based on political inclination.<br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Population.png" height = 400 width = 500> <br>
+<b> (c) </b> Change in death ratio and average population, based on political inclination.<br>
+
+3. The change in death ratio from one month before to one month after the date of mandating face-covering in the three states is visualized for each county in Fig.(2). Two clusters of increase in death ratio can be seen, one near northern Washington, and one near central California. <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/death_ratio_county_map_1.png"> <br>
-4. 
+
+4. The effect of each feature on the change of death ratio is visualized by the correlation heatmap provided in the figure below. Each row of the correlation matrix is an appropriate indicator of how correlated that feature is with change in death ratio. A more negative value implies that increase of that specific feature is positively correlated by a decrease in change of death ratio. For instance, increase in population, median income, and votes for democratic party would result in a decrease in change of death ratio. On the other hand, the positive correlation for republican votes leads to a higher change of positive increase in death ratio. An interesting observation is the disordered correlation pattern for mask usage. It can be seen that, as one expects, increasing the number never and rarely mask users is positively correlated with change in death ratio. However, the data associated with frequently mask users have resulted in a positive correlation value. Such erratic correlation behavior necessitates inclusion of other features in the analysis. <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/output_features_correlations.png"> <br>
 
-5.
+5. The accuracy score for the processed algorithms on these four states are presented in the below Table and confusion matrixes:
 <img src="https://github.com/alilafzi/corona/blob/main/images/2.PNG" height = 150 width = 350> <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> <br>
+Confusion matrix of Naive Base Algorithm <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_RF.png"> <br>
+Confusion matrix of Random Forest Algorithm <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_XGBoost.png"> <br>
+Confusion matrix of XGBoost Algorithm <br>
+
 ## Conclusion:
 In this body of work, we have analyzed the effect of mask covering on the intensity of spread of the COVID-19 virus by considering the death ratio at the county level to be the
 primary indicator. To bridge the gap between level of adherence to mask mandate, four main features are used as input data, population, income, political inclination, and the results of the survey on mask usage from New York Times. The change in the death ratio is used as the metric to quantify the effectiveness of face-coverings on the COVID-19 spread. After extracting and refining the data-set from reliable sources, we analyzed the information using 9 different algorithms. Among all the methods used, Random Forest, XGBoost, and Naive Bayes had the best performance with a classification accuracy of 94%. The high performing algorithms, with the computed hyper-parameters, are then used to process four additional states, Arizona, New Jersey, New York, and Texas entirely used as test data set. The acceptable accuracy results for the large test case, further verifies legibility of the chosen features as influential criteria for modeling purposes. The obtained hyper-parameters for these models (except for Naive Bayes) can now be used to predict future conditions of the spread of the virus. It is shown that, in most of the counties, there exist a connection between adherence to the mask mandate and change in death ratio. The findings of this work emphasizes importance of immediate legislative action on well-being of societies. It is hoped that the findings of this work, highlight importance of socioeconomic and political settings on behavior of different communities, which as portrayed could be complex and counter-intuitive. For instance, if the mask mandate had been issued earlier, with better implementation procedures along with effective incentives targetted at specific communities, more people would be encouraged to abide by the issued ordinance, and consequently, fewer individuals and families would have become the victim of the pandemic.
