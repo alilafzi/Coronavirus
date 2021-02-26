@@ -19,8 +19,8 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 ## Data Resources
 <ul> <b> Source 1:</b> USCensus, “United states census bureau.” https://www.census.gov </ul>
 <ul> <b> Source 2:</b>  N. Y. Times, “Mask-wearing survey data.” https://github.com/nytimes/covid-19-data/tree/master/mask-use.</ul>
-<ul> <b> Source 3:</b> USAFACTS, “Usa coronavirus cases and deaths.” https://usafacts.org/visualizations/coronavirus-covid-19-spread-map. </ul>
-<ul> <b> Source 4:</b> POLITICO, “Us 2020 presidential election results.” https://www.politico.com/2020-election/results/president/.</ul>
+<ul> <b> Source 3:</b> USAFACTS, “USA coronavirus cases and deaths.” https://usafacts.org/visualizations/coronavirus-covid-19-spread-map. </ul>
+<ul> <b> Source 4:</b> POLITICO, “US 2020 presidential election results.” https://www.politico.com/2020-election/results/president/.</ul>
 <br>
 
 ## Results:
