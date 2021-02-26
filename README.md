@@ -56,18 +56,18 @@ It should be noted that for carrying out the analysis, the data is split into tr
 
 5. The accuracy scores for all 9 ML algorithms on PC states are presented in the following table. We can see that Naive Bayes, Random Forest, and XGBoost have outperformed the others:
 <br>
-<img src="https://github.com/alilafzi/corona/blob/main/images/performances.png" height = 150 width = 350> <br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/performances.png" > <br>
 <br>
 Below, we see the confusion matrices for our top 3 algorithms:
 <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> <br>
-Confusion matrix of Naive Bayes Algorithm <br>
+Confusion matrix of Naive Bayes <br>
 <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_RF.png"> <br>
-Confusion matrix of Random Forest Algorithm <br>
+Confusion matrix of Random Forest <br>
 <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_XGBoost.png"> <br>
-Confusion matrix of XGBoost Algorithm <br>
+Confusion matrix of XGBoost <br>
 <br>
 
 <img src="https://github.com/alilafzi/corona/blob/main/images/2.PNG" height = 150 width = 350> <br>
