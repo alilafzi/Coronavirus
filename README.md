@@ -52,7 +52,7 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 <img src="https://github.com/alilafzi/corona/blob/main/images/2.PNG" height = 150 width = 350> <br>
 <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> <br>
-Confusion matrix of Naive Base Algorithm <br>
+Confusion matrix of Naive Bayes Algorithm <br>
 <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_RF.png"> <br>
 Confusion matrix of Random Forest Algorithm <br>
