@@ -38,7 +38,7 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 <b> (c) </b> Change in death ratio and average population, based on political inclination.<br>
 <br>
 
-3. The change in death ratio from one month before to one month after the date of mandating face-covering in the three states is visualized for each county in Fig.(2). Two clusters of increase in death ratio can be seen, one near northern Washington, and one near central California. <br>
+3. The change in death ratio from one month before to one month after the date of mandating face-covering in the three PC states for each county  is visualized in the following figure. Two clusters of increase in death ratio can be seen, one near northern Washington, and one near central California, but the overall pattern is totally random. <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/death_ratio_county_map_1.png"> <br>
 <br>
 
