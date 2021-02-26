@@ -70,6 +70,13 @@ Confusion matrix of Random Forest <br>
 Confusion matrix of XGBoost <br>
 <br>
 
+6. Using the calculated hyper-parameters from the best performing algorithms, it would be possible to predict effect of similar viral illnesses in future. To verify the legibility of the proposed work, the best performing algorithms (Naive Bayes, Random Forest, and XGBoost), were chosen with the computed hyper-parameters to process the data for four additional states, namely, Arizona, New Jersey, New York, and Texas. For choosing states for testing purposes, three main criteria were considered: <br>
+(a) Availability of data provided by NY Times survey <br>
+(b) Population <br>
+(c) Versatility of death rate ratio <br> 
+The NY Times mask usage survey is only available for the time period of interest, 7/2/2020 to 7/14/2020; therefore, the month after the corresponding MM order should contain this period for validity of our analysis. The chosen states all have high population. Lastly, Arizona, New Jersey, and New York all experienced a negative change of death ratio, while Texas suffered significant losses in the month after the MM was placed. Inclusion of cases with extreme positive and negative change of death ratio was done deliberately to assay functionality of the selected algorithms. The accuracy score for the processed algorithms on these four states are presented in the given table. <br>
+It should be noted that the results of the three west coast states were chosen as training data set. The entire data from the four states is treated as test data set. Hence, it is expected for the accuracy score to drop for testing the additional states. However, the trend of high accuracy for train and test data sets, signifies the existence of a pattern between the chosen features and the change in death ratio.
+
 <img src="https://github.com/alilafzi/corona/blob/main/images/2.PNG"> <br>
 
 ## Conclusion:
