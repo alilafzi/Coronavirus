@@ -23,6 +23,13 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 <ul> <b> Source 4:</b> POLITICO, “US 2020 presidential election results.” https://www.politico.com/2020-election/results/president/.</ul>
 <br>
 
+## Methods
+In this study, we have developed machine learning models to correlate the specified features mentioned in the previous section with the aim of shedding light on the relationship between adherence to mask mandate and mortality rate. <br>
+
+Classic ML methods of Logistic Regression and Naive Bayes classifier are used. In addition, ensemble learning-based models, Random Forest and Extra Trees, are also analyzed. Moreover, the extreme boosting method, XGBoost is explored. Other methods such as Support Vector Machine, K-Nearest Neighbors, Decision Trees, and Neural Network are additionally used for prediction of effect of Mask Mandate on mortality rate. <br>
+
+It should be noted that for carrying out the analysis, the data is split into training and test sets, with a test size of 20%. A k-fold cross validation scheme with 5 folds has been used to evaluate the performance of each method on the validation set and tune its hyper-parameters with the classification accuracy as the metric accordingly. The hyper-parameter tuning is done using either grid search or random search for all the methods. A min-max and max-abs scaling have been used to transform the input features and output, respectively, before passing the data to the ML algorithms for training. <br>
+
 ## Results:
 1. To have an initial assessment of the variation of percent change in the death ratio, we plotted the percent death ratio as functions of population, median income, and percent of the population that frequently uses mask, which has a relatively high correlation coefficient. There is no detectable pattern between parameters of interest and death ratio.<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/all_scatter_2.png"> <br>
