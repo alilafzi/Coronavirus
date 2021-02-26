@@ -9,7 +9,7 @@ We defined the parameter of interest as the average ratio of the number of death
 Histogram of change in the death ratio for the three PC states <br>
 
 Since it is not known exactly what percentage of population follows the MM order and use face coverings, it is necessary to come up with features that can capture how likely is
-an individual to follow the recommended practice. For bridging this gap, four main features are chosen as primary indicators which are listed below:<br>
+an individual to follow the recommended practices. For bridging this gap, four main features are chosen as primary indicators which are listed below:<br>
 <ul> <b> 1. County Population: </b> Population in each county is obtained from the most recent surveys for the year 2019. </ul>
 <ul> <b> 2. Median Household Income: </b> The income level is the median household in each county in the years 2015-2019.</ul>
 <ul> <b> 3. Political Inclination: </b> The data for the political inclination is constructed based on the 2020 US presidential election results.</ul>
@@ -17,7 +17,7 @@ an individual to follow the recommended practice. For bridging this gap, four ma
 <br>
 
 ## Data Resources
-<ul> <b> Source 1:</b> USCensus, “United states census bureau.” https://www.census.gov </ul>
+<ul> <b> Source 1:</b> US Census, “United states census bureau.” https://www.census.gov </ul>
 <ul> <b> Source 2:</b>  N. Y. Times, “Mask-wearing survey data.” https://github.com/nytimes/covid-19-data/tree/master/mask-use.</ul>
 <ul> <b> Source 3:</b> USAFACTS, “USA coronavirus cases and deaths.” https://usafacts.org/visualizations/coronavirus-covid-19-spread-map. </ul>
 <ul> <b> Source 4:</b> POLITICO, “US 2020 presidential election results.” https://www.politico.com/2020-election/results/president/.</ul>
