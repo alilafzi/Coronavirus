@@ -56,21 +56,21 @@ It should be noted that for carrying out the analysis, the data is split into tr
 
 5. The accuracy scores for all 9 ML algorithms on PC states are presented in the following table. We can see that Naive Bayes, Random Forest, and XGBoost have outperformed the others:
 <br>
-<img src="https://github.com/alilafzi/corona/blob/main/images/performances.png" > <br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/performances.png" >
 <br>
 Below, we see the confusion matrices for our top 3 algorithms:
 <br>
-<img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> <br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> 
 Confusion matrix of Naive Bayes <br>
 <br>
-<img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_RF.png"> <br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_RF.png"> 
 Confusion matrix of Random Forest <br>
 <br>
-<img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_XGBoost.png"> <br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_XGBoost.png"> 
 Confusion matrix of XGBoost <br>
 <br>
 
-<img src="https://github.com/alilafzi/corona/blob/main/images/2.PNG" height = 150 width = 350> <br>
+<img src="https://github.com/alilafzi/corona/blob/main/images/2.PNG"> <br>
 
 ## Conclusion:
 In this body of work, we have analyzed the effect of mask covering on the intensity of spread of the COVID-19 virus by considering the death ratio at the county level to be the
