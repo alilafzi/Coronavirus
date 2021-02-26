@@ -34,7 +34,7 @@ It should be noted that for carrying out the analysis, the data is split into tr
 1. To have an initial assessment of the variation of percent change in the death ratio, we plotted the percent death ratio as functions of population, median income, and percent of the population that frequently uses mask, which has a relatively high correlation coefficient. There is no detectable pattern between parameters of interest and death ratio.<br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/all_scatter_2.png"> <br>
 
-2. Figure a shows that in general, communities that voted republican in presidential election of 2020 were affected worse compared to democratic counties. Further, a noticeable correlation is observed between average median income and the change of death ratio, presented in Figure b. It is shown that, on average, the communities with less median income experienced a positive change in death ratio, meaning more mortality rate regardless of their political inclination. The strongest correlation however is observed by considering county population, shown in Figure c. The counties with fewer residents were affected more adversely by the pandemic compared to high-population counties. The counter intuitive relation between population and change in death ratio further corroborates necessity of inclusion of the two other supplementary features. <br>
+2. Figure (a) shows that in general, communities that voted republican in presidential election of 2020 were affected worse compared to democratic counties. Furthermore, a noticeable correlation is observed between average median income and the change of death ratio, presented in Figure (b). It is shown that, on average, the communities with less median income experienced a positive change in death ratio, meaning more mortality rate regardless of their political inclination. The strongest correlation however is observed by considering county population, shown in Figure (c). The counties with fewer residents were affected more adversely by the pandemic compared to high-population counties. The counter intuitive relation between population and change in death ratio further corroborates necessity of inclusion of the two other supplementary features. <br>
 <br>
 
 <img src="https://github.com/alilafzi/corona/blob/main/images/BarGraph_Political.png" height = 400 width = 500> <br>
@@ -58,7 +58,7 @@ It should be noted that for carrying out the analysis, the data is split into tr
 <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/performances.png" >
 <br>
-Below, we see the confusion matrices for our top 3 algorithms:
+Below, we see the confusion matrices for our top 3 algorithms:<br>
 <br>
 <img src="https://github.com/alilafzi/corona/blob/main/images/confusion_matrix_NB.png"> 
 Confusion matrix of Naive Bayes <br>
